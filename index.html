@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMBO SHOP</title>
+    <!-- Link Css -->
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <div class="top-navbar">
+        <p>WELCOME TO MY SHOP</p>
+        <div class="icons">
+            <a href="../html/Login.html"><img src="../img/login.png" width="18px" alt="">Login</a>
+            <a href="../html/Register.html"><img src="../img/login (1).png" width="18px" alt="">Register</a>
+        </div>
+    </div>  
+    <!-- Top Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../html/index.html" id="logo"><span id="span1">E</span>lectronic<span>Shop</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="../img/menu.png" alt="" width="30px"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(68 0 86);">
+                  <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Camera</a></li>
+                  <li><a class="dropdown-item" href="#">Fridge</a></li>
+                  <li><a class="dropdown-item" href="#">AC</a></li>
+                  <li><a class="dropdown-item" href="#">Smart Watch</a></li>
+                  <li><a class="dropdown-item" href="#">HeadPhone</a></li>
+                  <li><a class="dropdown-item" href="#">Labtop</a></li>
+                  <li><a class="dropdown-item" href="#">PC Monitor</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" id="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- End Navbar -->
+
+    <!-- Home Content -->
+    <section class="home">
+      <div class="content">
+        <h1>
+          <span>Electronic</span>
+          <br>
+          Up to <span id="span2">60%</span>Off
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eum!
+          <br>Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <div class="btn">
+          <button>Show Now</button>
+        </div>
+      </div>
+      <div class="img">
+        <img src="../img/BannerProduct.png" alt="">
+      </div>
+    </section>
+    <!-- End Hone Content -->
+
+    <!-- Product List  -->
+    <div class="container" id="product-list">
+      <h1 class="text-center">PRODUCTS</h1>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Iphone 13 pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">HeadPhone 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>100$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">I-Watch 11pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">MAC BOOK 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1900$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Iphone 13 pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">HeadPhone 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>100$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">I-Watch 11pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">MAC BOOK 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1900$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- End Product List -->
+
+    <!-- Other Card -->
+    <div class="container" id="other-card">
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/HeafPhone.png" alt="">
+            <div class="card-img-overlay">
+              <h3>Best Labtop</h3>
+              <h5>Lastest Collection</h5>
+              <p>Up To 65% Off</p>
+              <button id="show-now">Show Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/HeafPhone.png" alt="">
+            <div class="card-img-overlay">
+              <h3>Best HeadPhone</h3>
+              <h5>Lastest Collection</h5>
+              <p>Up To 65% Off</p>
+              <button id="show-now">Show Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Other Card -->
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="content">
+        <h1>
+          <span>Electronic</span>
+          <br>
+          Up to <span id="span2">60%</span>Off
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eum!
+          <br>Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <div class="btn">
+          <button>Show Now</button>
+        </div>
+      </div>
+      <div class="img">
+        <img src="../img/BannerProduct.png" alt="">
+      </div>
+    </section>
+    <!-- End Banner -->
+
+    <!-- Product Card -->
+    <div class="container" id="product-list">
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Iphone 13 pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">HeadPhone 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>100$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">I-Watch 11pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">MAC BOOK 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1900$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+    <!-- End Product Card -->
+
+    <!-- Other Card -->
+    <div class="container" id="other">
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/Electronic.jpg" alt="">
+            <div class="card-img-overlay">
+              <h3>Game Gadget</h3>
+              <p>lastest Collection Up To 65% Off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/Electronic.jpg" alt="">
+            <div class="card-img-overlay">
+              <h3>Game Gadget</h3>
+              <p>lastest Collection Up To 65% Off</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/Electronic.jpg" alt="">
+            <div class="card-img-overlay">
+              <h3>Game Gadget</h3>
+              <p>lastest Collection Up To 65% Off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Iphone 13 pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">HeadPhone 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>100$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">I-Watch 11pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>500$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="../img/iphone13.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">MAC BOOK 12pro</h3>
+              <p class=" text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>1900$ <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Other Card -->
+
+    <!-- offer -->
+    <div class="container" id="offer">
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Free Shipping</h3>
+          <p>On Order Over $500</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Free Returns</h3>
+          <p>Within 30 Days</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Fast Dilivery</h3>
+          <p>World Wide</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Big Choice</h3>
+          <p>Of Products</p>
+        </div>
+      </div>
+    </div>
+    <!-- End offer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
